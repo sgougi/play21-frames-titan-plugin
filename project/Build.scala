@@ -12,7 +12,7 @@ object ApplicationBuild extends Build {
 	val appDependencies = Seq(
 	    "com.wingnest.play2" % "play21-frames-module_2.10" % "1.0-SNAPSHOT",
 	    "com.thinkaurelius.titan" % "titan" % {titanVersion},
-    	    javaCore
+   	    javaCore
 	)
 
 	val main = play.Project(appName, appVersion, appDependencies).settings(		
