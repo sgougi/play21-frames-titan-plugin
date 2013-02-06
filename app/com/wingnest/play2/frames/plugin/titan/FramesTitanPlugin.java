@@ -29,10 +29,6 @@ public class FramesTitanPlugin extends PluginBase {
 
 	public FramesTitanPlugin(final Application application) {
 		super(application);
-		Runtime.getRuntime().addShutdownHook(new Thread() {
-			public void run() {
-			}
-		});		
 	}
 
 	@Override

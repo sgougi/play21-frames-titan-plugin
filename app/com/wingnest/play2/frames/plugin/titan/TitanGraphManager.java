@@ -8,9 +8,9 @@ import com.thinkaurelius.titan.core.TitanGraph;
 import com.tinkerpop.blueprints.Graph;
 import com.tinkerpop.blueprints.TransactionalGraph.Conclusion;
 import com.wingnest.play2.frames.plugin.FramesLogger;
-import com.wingnest.play2.frames.plugin.graphManager.GraphManager;
+import com.wingnest.play2.frames.plugin.graphManager.AbstractGraphManager;
 
-public class TitanGraphManager implements GraphManager {
+public class TitanGraphManager extends AbstractGraphManager {
 
 	private static class GraphHolder {
 		static private TitanGraph graph = createGraph();
@@ -49,4 +49,8 @@ public class TitanGraphManager implements GraphManager {
 	public void stopTransaction(Conclusion conclusion) {
 		GraphHolder.graph.stopTransaction(conclusion);		
 	}
+	
+	@Override
+	public void onShutdown() {
+	}	
 }
