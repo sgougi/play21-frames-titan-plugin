@@ -3,8 +3,6 @@ What is Frames-Titan Plugin ?
 
 **Frames-Titan plugin** is a Java O/G mapper for the [Titan](https://github.com/thinkaurelius/titan/wiki/Getting-Started) with  the [Play! framework](http://www.playframework.org/) 2. It is used with the [TinkerPop Frames](https://github.com/tinkerpop/frames/wiki) for O/G mapping.
 
-* For Play2.0.4 is [here](https://github.com/sgougi/play20-frames-titan-plugin).
-
 Features
 ======
 
@@ -14,12 +12,12 @@ Requirements
 =========
 
 * Java 5 or 6
-* Play2.1-RC4
+* Play2.1.0
 
 Install
 ====
 
-  1)  Install Play framework 2.1-RC4
+  1)  Install Play framework 2.1.0
 
   2)  Executing the command for installing the [Frames Module](https://github.com/sgougi/play21-frames-module) 
 
@@ -113,8 +111,7 @@ The **@WithGraphDB** annotation enables annotated Actions and/or Controllers to 
 
 Known Issues
 =============
-* Frames-Titan Plugin may be influenced by the following bug
- * [Play Framework 2.1-RC2: NoSuchFieldError's created by reverse routing in templates](http://goo.gl/dKSJd)
+* Nothing
 
 Licence
 ========
