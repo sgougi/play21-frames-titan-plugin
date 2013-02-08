@@ -12,7 +12,13 @@ Requirements
 =========
 
 * Java 5 or 6
-* Play2.1.0
+* Play 2.1.0
+
+Dependencies
+============
+
+* Titan 0.2.0
+* TinkerPop BluePrints 2.2.0
 
 Install
 ====

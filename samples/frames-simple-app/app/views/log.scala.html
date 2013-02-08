@@ -27,7 +27,7 @@
 		<tr>
 		  <td colspan="3">
 			 <div class="comments container-fluid t-no-float">
-@for(c <- m.getCommentsOrderByCreatedDateAsc()) {
+@for(c <- m.getCommentsOrderByCreatedDateAsc().asScala) {
 						<div class="each-comment">
 							<div class="row-fluid" style="text-align:left;">
 								<div class="span12 comment radius2"><div id="comment-body_@c.getId()" style="padding:5px;" class="comment-mes">@c.getContent()</div></div>
@@ -80,4 +80,4 @@
 <script>
 var logId = '@m.getId()';
 setupLog(logId);
-</script>	    
+</script>
