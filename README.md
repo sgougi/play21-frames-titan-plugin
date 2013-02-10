@@ -25,7 +25,7 @@ Install
 
   1)  Install Play framework 2.1.0
 
-  2)  Executing the command for installing the [TinkerPop Frames Module](https://github.com/sgougi/play21-frames-module) 
+  2)  Executing the command for installing the [TinkerPop Frames Module](http://goo.gl/0g43T) 
 
          % git git@github.com:sgougi/play21-frames-module.git
   
