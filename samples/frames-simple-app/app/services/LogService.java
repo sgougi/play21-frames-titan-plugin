@@ -53,7 +53,7 @@ public class LogService {
 	public Iterable<Log> getLogs() {
 		FramedGraph<Graph> graph = GraphDB.createFramedGraph();
 		
-		GremlinPipeline pipe = new GremlinPipeline();
+
 		Iterable<Vertex> logs = graph.getVertices("className", Log.class.getSimpleName());
 
 		if ( true ) {
@@ -64,6 +64,7 @@ public class LogService {
 				l.add((Vertex) o);
 			return graph.frameVertices(l, Log.class);
 		} else {
+			GremlinPipeline pipe = new GremlinPipeline();
 			@SuppressWarnings("unchecked")
 			final List<Vertex> vertices = pipe.start(logs).order(new PipeFunction<Pair<Vertex, Vertex>, Integer>() {
 				public Integer compute(Pair<Vertex, Vertex> pair) {
