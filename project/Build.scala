@@ -15,7 +15,8 @@ object ApplicationBuild extends Build {
    	    javaCore
 	)
 
-	val main = play.Project(appName, appVersion, appDependencies).settings(		
+	val main = play.Project(appName, appVersion, appDependencies).settings(
+	    publishArtifact in(Compile, packageDoc) := false,
 	    organization := "com.wingnest.play2",
 	    resolvers += "Oracle Releases" at "http://download.oracle.com/maven/"
 	)
