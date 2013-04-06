@@ -28,6 +28,8 @@ Install
   2)  Executing the command for installing the [TinkerPop Frames Module](http://goo.gl/0g43T) 
 
          % git clone git@github.com:sgougi/play21-frames-module.git
+         % cd play21-frames-module
+         % git checkout 1.0-SNAPSHOT
   
   3)  Publishing the Frames Module to your local repository
            
