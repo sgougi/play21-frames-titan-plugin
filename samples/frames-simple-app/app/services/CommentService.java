@@ -7,7 +7,6 @@ import models.vertices.Comment;
 import models.vertices.Log;
 
 import com.tinkerpop.blueprints.Graph;
-import com.tinkerpop.blueprints.IndexableGraph;
 import com.tinkerpop.frames.FramedGraph;
 import com.wingnest.play2.frames.GraphDB;
 
@@ -24,7 +23,6 @@ public class CommentService {
 
 	public Comment create(CommentData commentData, Log log, boolean disupdateFlagLog) {
 		final FramedGraph<Graph> fg = GraphDB.createFramedGraph();
-		IndexableGraph baseGraph = (IndexableGraph)fg.getBaseGraph();
 		final Date nowDate = new Date();
 		Comment comment = fg.addVertex(null, Comment.class);
 

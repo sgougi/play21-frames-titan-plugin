@@ -58,13 +58,25 @@ public class TitanGraphManager extends AbstractGraphManager {
 	}
 
 	@Override
+	@Deprecated
 	public void startTransaction() {/* noop */}
 
 	@Override
+	@Deprecated
 	public void stopTransaction(Conclusion conclusion) {
 		GraphHolder.graph.stopTransaction(conclusion);		
 	}
 	
+	@Override
+	public void commit() {
+		GraphHolder.graph.commit();
+	}
+
+	@Override
+	public void rollback() {
+		GraphHolder.graph.rollback();
+	}
+
 	@Override
 	public void onShutdown() {
 	}	

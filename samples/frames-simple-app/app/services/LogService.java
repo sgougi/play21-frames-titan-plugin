@@ -52,8 +52,6 @@ public class LogService {
 	@SuppressWarnings("rawtypes")
 	public Iterable<Log> getLogs() {
 		FramedGraph<Graph> graph = GraphDB.createFramedGraph();
-		
-
 		Iterable<Vertex> logs = graph.getVertices("className", Log.class.getSimpleName());
 
 		if ( true ) {

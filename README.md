@@ -17,8 +17,9 @@ Requirements
 Dependencies
 ============
 
-* Titan 0.2.0
-* TinkerPop BluePrints 2.2.0
+* Titan 0.3.0
+* TinkerPop BluePrints 2.3.0
+* TinkerPop Frames 2.3.0
 
 Install
 ====
@@ -29,7 +30,7 @@ Install
 
          % git clone git@github.com:sgougi/play21-frames-module.git
          % cd play21-frames-module
-         % git checkout 2.2.0-1.0
+         % git checkout 2.3.0-1.0
   
   3)  Publishing the Frames Module to your local repository
            
