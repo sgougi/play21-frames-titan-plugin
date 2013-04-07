@@ -97,22 +97,6 @@ Defines one attribute as id attribute.
          ...
       }
 
-####[@IndexedProperty](https://github.com/sgougi/play21-frames-module/blob/master/app/com/wingnest/play2/frames/annotations/IndexedProperty.java)
-Defines one or more attributes as indexed attribute.(Titan currently does not support the [IndexableGraph](https://github.com/tinkerpop/blueprints/wiki/Graph-Indices))
-
- ex:
-
-       public interface A {
-         ...
-         @IndexedProperty("type")
-          public String getType();
-         @IndexedProperty("type")
-          public void setType(String type);
-         ...
-       }
-
-       Index<Vertex> index = GraphDB.getIndex(A.class.getSimpleName(), Vertex.class);
-       Iterable<Vertex> types = index.get("type", "text");
 
 ### For Controllers
 ####[@WithGraphDB](https://github.com/sgougi/play21-frames-module/blob/master/app/com/wingnest/play2/frames/annotations/WithGraphDB.java)
