@@ -19,3 +19,4 @@ dist
 *.info.*
 *.lck
 *.bak
+samples/**/db/*.properties
