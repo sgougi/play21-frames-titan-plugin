@@ -5,8 +5,8 @@ import play.Project._
 object ApplicationBuild extends Build {
 
 	val appName         = "play21-frames-titan-plugin"
-	val appVersion      = "1.0-module-2.3.1-1.0"
-	val titanVersion    = "0.3.0"
+	val appVersion      = "1.1-module-2.3.1-1.0"
+	val titanVersion    = "0.3.1"
 
 	val appDependencies = Seq(
 	    "com.wingnest.play2" % "play21-frames-module_2.10" % "2.3.1-1.0",

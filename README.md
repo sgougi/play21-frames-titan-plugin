@@ -17,7 +17,7 @@ Requirements
 Dependencies
 ============
 
-* Titan 0.3.0
+* Titan 0.3.1
 * TinkerPop BluePrints 2.3.0
 * TinkerPop Frames 2.3.1
 
