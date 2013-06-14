@@ -8,6 +8,8 @@ Features
 
 * Object-Graph-Mapping by the [TinkerPop Frames](https://github.com/tinkerpop/frames/wiki)
 
+* Supports for auto-reloading
+
 Requirements
 =========
 
