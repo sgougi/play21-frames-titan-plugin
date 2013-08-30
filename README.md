@@ -14,7 +14,7 @@ Requirements
 =========
 
 * Java 5 or 6, 7
-* Play 2.1.2
+* Play 2.1.3
 
 Dependencies
 ============
@@ -26,13 +26,13 @@ Dependencies
 Install
 ====
 
-  1)  Install Play framework 2.1.2
+  1)  Install Play framework 2.1.3
 
   2)  Executing the command for installing the [TinkerPop Frames Module](http://goo.gl/0g43T) 
 
          % git clone git@github.com:sgougi/play21-frames-module.git
          % cd play21-frames-module
-         % git checkout 2.3.1-1.1
+         % git checkout 2.3.1-1.2
   
   3)  Publishing the Frames Module to your local repository
            
