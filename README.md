@@ -23,10 +23,10 @@ Dependencies
 * TinkerPop BluePrints 2.3.0
 * TinkerPop Frames 2.3.1
 
-Install
+Setup
 ====
 
-  1)  Install Play framework 2.2
+  1)  Installing Play framework 2.2
 
   2)  Executing the command for installing the [TinkerPop Frames Module](http://goo.gl/0g43T) 
 
@@ -49,7 +49,7 @@ Install
          % play publish-local
 
 
-Run sample application and Usage
+Running a sample application and Usage
 =======================
 
 At a command prompt, type the following commands:
