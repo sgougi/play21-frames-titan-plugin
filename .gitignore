@@ -20,3 +20,6 @@ dist
 *.lck
 *.bak
 samples/**/db/*.properties
+
+/bin
+/samples/frames-simple-app/bin

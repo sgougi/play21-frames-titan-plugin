@@ -5,11 +5,11 @@ import play.Project._
 object ApplicationBuild extends Build {
 
 	val appName         = "play21-frames-titan-plugin"
-	val appVersion      = "1.2-module-2.3.2"
-	val titanVersion    = "0.3.2"
+	val appVersion      = "1.3-module-2.4.4"
+	val titanVersion    = "0.4.2"
 
 	val appDependencies = Seq(
-	    "com.wingnest.play2" % "play21-frames-module_2.10" % "2.3.2",
+	    "com.wingnest.play2" % "play21-frames-module_2.10" % "2.4.4",
 	    "com.thinkaurelius.titan" % "titan-core" % {titanVersion},
    	    javaCore
 	)

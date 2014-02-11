@@ -14,14 +14,14 @@ Requirements
 =========
 
 * Java 5, 6 or 7
-* Play 2.2
+* Play 2.2.1
 
 Dependencies
 ============
 
-* Titan 0.3.2
-* TinkerPop BluePrints 2.3.0
-* TinkerPop Frames 2.3.1
+* Titan 0.4.2
+* TinkerPop BluePrints 2.4.0
+* TinkerPop Frames 2.4.0
 
 Setup
 ====
@@ -32,7 +32,7 @@ Setup
 
          % git clone git@github.com:sgougi/play21-frames-module.git
          % cd play21-frames-module
-         % git checkout 2.3.2
+         % git checkout 2.4.4
   
   3)  Publishing the Frames Module to your local repository
            
